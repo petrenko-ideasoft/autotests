@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "order_id": { "anyOf": [{"type": "number"}, {"type": "null"}] },
+    "id": { "type": "number"}
+  },
+  "additionalProperties": false
+}

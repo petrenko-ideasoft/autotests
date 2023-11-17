@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "bytecode": { "type": "string" },
+    "abi": { "type": "string" }
+  },
+  "additionalProperties": false
+}

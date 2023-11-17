@@ -1,0 +1,8 @@
+{
+  "contract_address": "erc1155",
+  "token_uri": "ipfs://bafkreidkaxflhvnmlfc6wqzwo2no37vexbmlqlto4w7sjidynxi4qhhxdi",
+  "eip721_signature": "0xb5e6917cabb422034962140dfcf8bae72c9c6893b5a94ec33b3f84e875445eeb236e78db2208e1f01f822c992a71d5d849e030b85148677fb83f5b56a6393e461c",
+  "royalty_percent": "0",
+  "number_of_copies": "1",
+  "comment": "Lorem Ipsum automation test"
+}

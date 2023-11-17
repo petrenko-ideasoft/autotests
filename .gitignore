@@ -1,0 +1,11 @@
+.env
+*.pyc
+*.swp
+.idea/*
+/tmp/*
+/reports
+*.local.ini
+config/*.local.yml
+debug.log
+/output/*
+failing_scenarios.txt

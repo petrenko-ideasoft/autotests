@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "limit": { "type": "string" },
+    "offset": { "type": "string" },
+    "list": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": false
+}

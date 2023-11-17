@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "properties": {
+    "nft_info": {
+      "type": "object",
+      "nft_id": { "type": "string" },
+      "chain_id": { "type": "string" },
+      "contract_address": { "type": "string" },
+      "image": {
+        "type": "array",
+        "link": { "type": "string" },
+        "hash": { "type": "string" }
+      },
+      "metadata": {
+        "type": "object",
+        "link": { "type": "string" },
+        "hash": { "type": "string" },
+        "metadata": {
+          "type": "object",
+          "decimals": { "type": "string" },
+          "image": { "type": "string" },
+          "name": { "type": "string" },
+          "properties": {
+            "type": "object",
+            "settings": {
+              "type": "object",
+              "param_1": { "type": "string" }
+            }
+          }
+        }
+      },
+      "name": { "type": "string" },
+      "description": { "type": "string" },
+      "properties": {
+        "type": "object",
+        "settings": {
+          "type": "object",
+          "param_1": { "type": "string" }
+        }
+      },
+      "creator": {
+        "type": "object",
+        "address": { "type": "string" }
+      },
+      "owner": { "type": "string" },
+      "is_blur": { "type": "boolean" },
+      "date_create": { "type": "string", "format": "date-time" }
+    }
+  },
+  "additionalProperties": false
+}

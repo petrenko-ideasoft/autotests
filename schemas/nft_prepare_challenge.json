@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "request_id": { "type": "string" },
+    "hmac": { "type": "string" }
+  },
+  "additionalProperties": false
+}

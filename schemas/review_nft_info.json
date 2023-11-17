@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "review_id": { "type": "string" },
+    "request_type": { "type": "string", "default": "mintNFTRequest" },
+    "request_status": { "type": "string", "default": "pending" },
+    "mint_nft_request": {
+      "type": "object",
+      "contract_type": { "type": "string" },
+      "contract_address": { "type": "string" },
+      "token_uri": { "type": "string" },
+      "royalty_percent": { "type": "string" },
+      "number_of_copies": { "type": "string" },
+      "metadata": { "type": "array" }
+    },
+    "external_nft_request": { "type": "object" },
+    "metadata_or_image_changes_nft_request": { "type": "object" },
+    "date_create": { "type": "string", "format": "date-time" },
+    "date_update": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}

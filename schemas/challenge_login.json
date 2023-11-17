@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "wallet_address": { "type": "string" },
+    "request_id": { "type": "string" },
+    "expires_on": { "type": "string", "format": "date-time" },
+    "hmac": { "type": "string" },
+    "sign_type": { "type": "string" }
+  },
+  "additionalProperties": false
+}

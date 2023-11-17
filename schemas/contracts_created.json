@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "pagination": {
+      "type": "object",
+      "per_page": { "type": "string" },
+      "cursor": {
+        "type": "array",
+        "prev": {
+          "type": "array",
+          "contract_address": { "type": "string" },
+          "timestamp": { "type": "string",  "format": "date-time" }
+        },
+        "next": {
+          "type": "array",
+          "contract_address": { "type": "string" },
+          "timestamp": { "type": "string", "format": "date-time" }
+        }
+      }
+    },
+    "list": {
+      "type": "array",
+      "contract_address": { "type": "string" },
+      "contract_type": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

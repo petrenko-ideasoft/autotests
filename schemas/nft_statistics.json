@@ -1,0 +1,73 @@
+{
+  "type": "object",
+  "properties": {
+    "total_volume": { "type": "string" },
+    "total_deals": { "type": "string" },
+    "active_users": { "type": "string" },
+    "new_users": { "type": "string" },
+    "average_price": { "type": "string" },
+    "new_listings": {
+      "type": "object",
+      "fixed_price": { "type": "string" },
+      "auction": { "type": "string" },
+      "total": { "type": "string" }
+    },
+    "active_listings": {
+      "type": "object",
+      "fixed_price": { "type": "string" },
+      "auction": { "type": "string" },
+      "total": { "type": "string" }
+    },
+    "top_collections_by_volume": {
+      "type": "array",
+      "properties": {
+        "contract_id": { "type": "string" },
+        "address": { "type": "string" },
+        "type": { "type": "string" },
+        "volume": { "type": "string" }
+      }
+    },
+    "top_collections_by_deals": {
+      "type": "array",
+      "properties": {
+        "contract_id": { "type": "string" },
+        "address": { "type": "string" },
+        "type": { "type": "string" },
+        "deals": { "type": "string" }
+      }
+    },
+    "top_buyers": {
+      "type": "array",
+      "properties": {
+        "wallet_id": { "type": "string" },
+        "address": { "type": "string" },
+        "purchases": { "type": "string" }
+      }
+    },
+    "top_sellers": {
+      "type": "array",
+      "properties": {
+        "wallet_id": { "type": "string" },
+        "address": { "type": "string" },
+        "sells": { "type": "string" }
+      }
+    },
+    "highest_sale_nfts": {
+      "type": "array",
+      "properties": {
+        "token_id": { "type": "string" },
+        "token_number": { "type": "string" },
+        "contract_id": { "type": "string" },
+        "contract_type": { "type": "string" },
+        "contract_address": { "type": "string" },
+        "owner_id": { "type": "string" },
+        "owner_address": { "type": "string" },
+        "buyer_id": { "type": "string" },
+        "buyer_address": { "type": "string" },
+        "sale_type": { "type": "string" },
+        "price": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": false
+}

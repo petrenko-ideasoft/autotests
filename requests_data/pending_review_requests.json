@@ -1,0 +1,20 @@
+{
+  "pagination": {
+    "direction": "next",
+    "per_page": "100",
+    "cursor": {
+      "review_id": "1",
+      "timestamp": "2023-01-01T00:00:01Z"
+    }
+  },
+  "sorting": "desc",
+  "order_by": "date_create",
+  "filter": [
+    {
+      "relation": "and",
+      "data_field": "request_status",
+      "condition": "is",
+      "value": "pending"
+    }
+  ]
+}

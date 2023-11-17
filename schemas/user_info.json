@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "wallet_address": { "type": "string" },
+    "chain_id": { "type": "string" },
+    "wallet_balance": { "type": "string" },
+    "email_address": { "type": "string" }
+  },
+  "additionalProperties": false
+}

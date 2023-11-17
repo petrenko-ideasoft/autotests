@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "group_a": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "group_b": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "property_a": { "type": "string" }
+  },
+  "additionalProperties": false
+}

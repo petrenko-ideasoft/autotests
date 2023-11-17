@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "template_ids": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": false
+}

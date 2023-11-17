@@ -1,0 +1,12 @@
+{
+  "pagination": {
+    "direction": "next",
+    "per_page": "10",
+    "cursor": {
+      "whitelist_id": "4a0857a9-7db1-4a8d-a287-7293636dd22b",
+      "timestamp": "2023-01-01T00:00:01Z"
+    }
+  },
+  "sorting": "asc",
+  "order_by": "date_start"
+}

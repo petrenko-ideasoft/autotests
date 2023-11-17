@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "pagination": {
+      "type": "object",
+      "per_page": { "type": "string" },
+      "cursor": {
+        "type": "object",
+        "prev": {
+          "type": "object",
+          "review_id": { "type": "string" },
+          "timestamp": { "type": "string", "format": "date-time" }
+        },
+        "next": {
+          "type": "object",
+          "review_id": { "type": "string" },
+          "timestamp": { "type": "string", "format": "date-time" }
+        }
+      }
+    },
+    "list": { "type": "array" }
+  },
+  "additionalProperties": false
+}

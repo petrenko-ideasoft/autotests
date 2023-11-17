@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "default_language": { "type": "string" },
+    "languages": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": false
+}

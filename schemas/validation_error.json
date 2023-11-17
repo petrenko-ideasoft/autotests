@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "number"
+    },
+    "message": {
+      "type": "string"
+    },
+    "details": {
+      "type": "array",
+      "@type": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

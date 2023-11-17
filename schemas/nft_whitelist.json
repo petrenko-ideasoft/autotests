@@ -1,0 +1,64 @@
+{
+  "type": "object",
+  "properties": {
+    "pagination": {
+      "type": "object",
+      "per_page": { "type": "string" },
+      "cursor": {
+        "type": "object",
+        "prev": {
+          "type": "object",
+          "whitelist_id": { "type": "string" },
+          "timestamp": { "type": "string" }
+        },
+        "next": {
+          "type": "object",
+          "whitelist_id": { "type": "string" },
+          "timestamp": { "type": "string" }
+        }
+      }
+    },
+
+    "list": {
+      "type": "array",
+      "properties": {
+        "whitelist_id": { "type": "string" },
+        "nft_info": {
+          "type": "array",
+          "nft_id": { "type": "string" },
+          "chain_id": { "type": "string" },
+          "contract_address": { "type": "string" },
+          "image": {
+            "type": "array",
+            "link": { "type": "string" },
+            "hash": { "type": "string" }
+          },
+          "metadata": {
+            "type": "array",
+            "link": { "type": "string" },
+            "hash": { "type": "string" }
+          },
+          "creator": {
+            "type": "array",
+            "link": { "type": "string" },
+            "hash": { "type": "string" },
+            "metadata": { "type": "object" },
+            "name": { "type": "string" },
+            "description": { "type": "string" },
+            "properties": { "type": "object" }
+          },
+          "owner": {
+            "type": "object",
+            "address": { "type": "string" }
+          },
+          "owner_list": {
+            "type": "object",
+            "address": { "type": "string" },
+            "quantity": { "type": "string" }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

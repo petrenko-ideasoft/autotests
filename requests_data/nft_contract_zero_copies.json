@@ -1,0 +1,8 @@
+{
+  "contract_address": "erc1155",
+  "token_uri": "ipfs://bafkreidkpfufp2pj4ocbqlp2cebu46hq3xrt7hx7yejgl7w2pvnoap7iv4",
+  "eip721_signature": "0xb72165cef077626d12f40ad9fb77d2c03ed63b16ce12a9537e5a2e44af5927cd3ab30314a4dba4200e297b1cc3565370125371f922d489fb2a1a6457a31a34381b",
+  "royalty_percent": "0",
+  "number_of_copies": "0",
+  "comment": ""
+}

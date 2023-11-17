@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "template_id":  { "type": "string" },
+    "name": { "type": "string" },
+    "subject": { "type": "string" },
+    "language": { "type": "string" },
+    "html": { "type": "string" },
+    "plain": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}

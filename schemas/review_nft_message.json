@@ -1,0 +1,7 @@
+{
+  "type": "object",
+  "properties": {
+      "review_id": { "type": "string" }
+  },
+  "additionalProperties": false
+}
